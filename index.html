@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="client/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li id="0" class="nav-item">
+                                <a id="home" class="nav-link" href="#">Home</a>
+                            </li>
+                            <li id="1" class="nav-item">
+                                <a id="cars" class="nav-link" href="#">Cars</a>
+                            </li>
+                            <li id="2" class="nav-item">
+                                <a id="addCar" class="nav-link" href="#">Add Car</a>
+                            </li>
+                            <li id="3" class="nav-item">
+                                <a id="signIn" class="nav-link" href="#">Sign In</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid col2">
+            <div class="row">
+                <div id="f-find"> 
+                    <input type="text" id="find" name="finding">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="col-sm">
+                    <a id="logOut" class="nav-link logOut" href="#">Log Out</a>
+
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </nav>
+    <!-- <i id="chevron"><<</i> -->
+    <i id="chevron" class="fas fa-chevron-circle-down fa-3x"></i>
+    <br>
+
+    <div id="container" class="container">
+
+    </div>
+    <script src="client/js/jquery-3.3.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="client/js/model.js"></script>
+    <script src="client/js/view.js"></script>
+    <script src="client/js/controller.js"></script>
+    <script src="modulesJS/connectMySql.js"></script>
+    <script src="modulesJS/updateBdd.js"></script>
+</body>
+
+</html>

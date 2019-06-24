@@ -1,0 +1,85 @@
+   /* .navbar, .nav-item{
+transform: rotate(180deg);
+margin: 30px;
+   }  */
+    
+
+
+   #chevron{
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+   }
+
+   .nav-link{
+      border-color: gainsboro;
+      border-style: solid;
+      border-radius: 10px;
+      margin-right: 10px;
+   }
+    
+
+   #container{
+      opacity: 0;
+      display: flex;
+      justify-content: space-around;
+      /* width: 35%; */
+   }
+    
+   .fc-signin, .fc-signup {
+      padding: 2%;
+      background-color: blue;
+      color: beige;
+       border-color: gainsboro;
+       border-style: solid;
+       border-radius: 10px;
+      width: 35%;
+      justify-content: center;
+   }
+
+   /* a[href*="example"] */
+   [id*="f-signin"]{
+      display: grid;
+      justify-content: center;
+   }
+
+   #f-signin3{
+      display: block;
+      justify-content: space-around;
+   }
+
+   a{
+      color: white;
+      font-size: larger;
+   }
+
+.col2 {
+   display: flex;
+   margin-left: 35%;
+}
+
+#f-find{
+   padding-top: 10px;
+   color: antiquewhite;
+}
+
+
+   .logOut{
+      justify-content: end;
+      visibility: hidden;
+   }
+
+   #init{
+      display: flex;
+      justify-content: center;
+      color: red;
+   }
+
+   .err{
+      border-color:red;
+      border-style: groove;
+   }
+
+   .token{
+     visibility: hidden;
+   }
